@@ -6,7 +6,7 @@
     <meta name="description" content="你的网站描述">
     <meta name="keywords" content="相关关键词">
     <title>Fashion Store</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <!-- Add PayPal SDK -->
     <script src="https://www.paypal.com/sdk/js?client-id=AStYMjzGszMF9op-b9xXuFAKWzzHJ7qrupBDBib5Rip9is_Vpdf_QcVkMXmo4hR27OwUAP2gfFzArhLD&currency=USD"></script>
 </head>
@@ -30,13 +30,55 @@
     <main>
         <section id="home" class="hero">
             <h1>Welcome to Fashion Store</h1>
-            <p>Discover the Latest Fashion Trends</p>
+            <p>Discover the Latest Fashion Trends 2024</p>
         </section>
 
         <section id="products" class="products">
             <h2>Featured Products</h2>
             <div class="product-grid" id="productGrid">
-                <!-- Products will be loaded dynamically -->
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg" alt="Elegant Dress" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Elegant Dress</h3>
+                        <p class="product-price">$299</p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="https://res.cloudinary.com/demo/image/upload/w_300,h_400,c_fill/sample.jpg" alt="Casual Jeans" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Casual Jeans</h3>
+                        <p class="product-price">$199</p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="https://res.cloudinary.com/demo/image/upload/w_300,h_400,c_fill/sample.jpg" alt="Classic T-Shirt" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Classic T-Shirt</h3>
+                        <p class="product-price">$99</p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="https://res.cloudinary.com/demo/image/upload/w_300,h_400,c_fill/sample.jpg" alt="Spring Jacket" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Spring Jacket</h3>
+                        <p class="product-price">$399</p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -69,6 +111,6 @@
         </div>
     </div>
 
-    <script src="js/script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html> 
