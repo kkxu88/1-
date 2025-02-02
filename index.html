@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="你的网站描述">
+    <meta name="keywords" content="相关关键词">
+    <title>Fashion Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Add PayPal SDK -->
+    <script src="https://www.paypal.com/sdk/js?client-id=AStYMjzGszMF9op-b9xXuFAKWzzHJ7qrupBDBib5Rip9is_Vpdf_QcVkMXmo4hR27OwUAP2gfFzArhLD&currency=USD"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Fashion Store</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="cart">
+                <span class="cart-icon">🛒</span>
+                <span class="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to Fashion Store</h1>
+            <p>Discover the Latest Fashion Trends</p>
+        </section>
+
+        <section id="products" class="products">
+            <h2>Featured Products</h2>
+            <div class="product-grid" id="productGrid">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>We are committed to providing you with the highest quality clothing and the best shopping experience.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Phone: +1 123-456-789</p>
+            <p>Email: contact@fashionstore.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fashion Store. All rights reserved.</p>
+    </footer>
+
+    <!-- Add cart modal -->
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Shopping Cart</h2>
+            <div id="cartItems"></div>
+            <div class="cart-total">
+                <h3>Total: $<span id="cartTotal">0</span></h3>
+            </div>
+            <div id="paypal-button-container"></div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
